@@ -20,7 +20,7 @@ public class DisplayHeight5NumberInArray {
 	            }
 	        }
 	        large[j] = max;
-	        array[index] = Integer.MIN_VALUE;
+	        array[index] = 1; //11; //Integer.MIN_VALUE;
 
 	        System.out.println("Largest " + (j+1) +  " : " + large[j]);
 	    }
